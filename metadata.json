@@ -1,0 +1,5 @@
+{
+  "name": "Copy of TenderWatch AI",
+  "description": "Automated tender monitoring system for Maldives Gazette and Sri Lanka Promise using Gemini for translation and keyword filtering.",
+  "requestFramePermissions": []
+}

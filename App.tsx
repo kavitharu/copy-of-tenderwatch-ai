@@ -99,7 +99,9 @@ function App() {
     addLog('Starting filtered tender scan (Last 30 Days)...', 'info');
 
     let allFoundTenders: Tender[] = [];
-    const apiKey = process.env.API_KEY || "";
+    
+    // Fix: Use import.meta.env instead of process.env for Vite compatibility
+    const apiKey = import.meta.env.API_KEY || "";
 
     try {
       const totalSites = TARGET_SITES.length;
